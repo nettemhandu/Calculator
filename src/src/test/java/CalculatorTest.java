@@ -29,7 +29,12 @@ public class CalculatorTest {
         assertEquals(4, result, "2 x 2 = 4");
     }
 
-
+    @Test
+    void testDivision() {
+        Calculator calculator = new Calculator();
+        int result = calculator.divide(10, 2);
+        assertEquals(5, result, "10 / 2 = 5");
+    }
 
 
 }
