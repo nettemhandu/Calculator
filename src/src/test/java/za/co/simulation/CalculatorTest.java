@@ -16,7 +16,7 @@ public class CalculatorTest {
         int result = calculator.add(5,5);
 
         // Assert
-        assertEquals(10, result, "5 + 5 = 10");
+        assertEquals(10, result, "Answer should be 10");
     }
 
     @Test
@@ -27,7 +27,7 @@ public class CalculatorTest {
         // Act
         int result = calculator.subtract(5, 3);
         // Assert
-        assertEquals(2, result, "5 - 3 = 2");
+        assertEquals(2, result, "Answer should be 2");
     }
 
     @Test
@@ -38,7 +38,7 @@ public class CalculatorTest {
         // Act
         int result = calculator.multiply(2,2);
         // Assert
-        assertEquals(4, result, "2 x 2 = 4");
+        assertEquals(4, result, "Answer should be 4");
     }
 
     @Test
@@ -49,6 +49,6 @@ public class CalculatorTest {
         // Act
         int result = calculator.divide(10, 2);
         // Assert
-        assertEquals(5, result, "10 / 2 = 5");
+        assertEquals(5, result, "Answer should be 5");
     }
 }
