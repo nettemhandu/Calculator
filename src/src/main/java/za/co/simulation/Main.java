@@ -2,8 +2,10 @@ package za.co.simulation;
 
 public class Main {
     public static void main(String[] args) {
+        // Call class and make an object of that class
         Calculator calculator = new Calculator();
 
+        // Call methods and instantiate with data then print results
         int result = calculator.add(50, 50);
         System.out.println("Answer for addition is: " + result);
 
