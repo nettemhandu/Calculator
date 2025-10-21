@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
-        int result = calculator.add(5, 5);
+        int result = calculator.add(50, 50);
         System.out.println("Answer for addition is: " + result);
 
-        int result1 = calculator.subtract(5,2);
+        int result1 = calculator.subtract(-3,-7);
         System.out.println("Answer for subtract is: " + result1);
 
         int result2 = calculator.divide(5,2);
