@@ -13,9 +13,9 @@ public class Main {
         System.out.println("The answer for subtract is: " + result1);
 
         int result2 = calculator.divide(5,2);
-        System.out.println("Answer for division is: " + result2);
+        System.out.println("The answer for division is: " + result2);
 
         int result3 = calculator.multiply(5,2);
-        System.out.println("Answer for multiplication is: " + result3);
+        System.out.println("The answer for multiplication is: " + result3);
     }
 }
