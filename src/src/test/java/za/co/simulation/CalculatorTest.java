@@ -38,7 +38,7 @@ public class CalculatorTest {
         // Act
         int result = calculator.multiply(2,2);
         // Assert
-        assertEquals(4, result, "Answer should be 4");
+        assertEquals(4, result, "Answer should be 4.");
     }
 
     @Test
