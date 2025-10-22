@@ -49,6 +49,6 @@ public class CalculatorTest {
         // Act
         int result = calculator.divide(10, 2);
         // Assert
-        assertEquals(5, result, "Answer should be 5");
+        assertEquals(5, result, "Answer should be 5.");
     }
 }
