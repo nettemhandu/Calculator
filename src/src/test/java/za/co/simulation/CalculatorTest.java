@@ -27,7 +27,7 @@ public class CalculatorTest {
         // Act
         int result = calculator.subtract(5, 3);
         // Assert
-        assertEquals(2, result, "Answer should be 2");
+        assertEquals(2, result, "Answer should be 2.");
     }
 
     @Test
