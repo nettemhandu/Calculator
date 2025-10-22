@@ -10,7 +10,7 @@ public class Main {
         System.out.println("The answer for addition is: " + result);
 
         int result1 = calculator.subtract(-3,-7);
-        System.out.println("Answer for subtract is: " + result1);
+        System.out.println("The answer for subtract is: " + result1);
 
         int result2 = calculator.divide(5,2);
         System.out.println("Answer for division is: " + result2);
