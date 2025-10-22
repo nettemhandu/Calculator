@@ -7,7 +7,7 @@ public class Main {
 
         // Call methods and instantiate with data then print results
         int result = calculator.add(50, 50);
-        System.out.println("Answer for addition is: " + result);
+        System.out.println("The answer for addition is: " + result);
 
         int result1 = calculator.subtract(-3,-7);
         System.out.println("Answer for subtract is: " + result1);
