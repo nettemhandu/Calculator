@@ -5,7 +5,6 @@ This project serves as practice and preparation for my main project, helping me 
 
 
 Features:
-
 Basic arithmetic operations (add, subtract, multiply, divide)
 
 Modular, testable code design
